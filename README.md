@@ -36,4 +36,54 @@ To build a smart, real-time monitoring system that detects criminal or suspiciou
 ---
 
 ## 📁 Project Structure
+├── deploy.prototxt.txt # DNN face detection model config
+├── res10_300x300_ssd_iter_140000.caffemodel # Pre-trained face detection model
+├── Beep.wav # Alert sound file
+├── detection_log.csv # Auto-generated log file
+├── violence-detector4.py # Main code for detection
+└── README.md # Project documentation
+
+
+
+---
+
+## 🚀 How to Run
+
+### ✅ Step 1: Clone the repository
+
+git clone https://github.com/yourusername/intelligent-crime-detection-ai.git
+cd intelligent-crime-detection-ai
+
+### ✅ Step 2: Install dependencies
+pip install opencv-python imutils pygame pandas numpy
+
+### ✅ Step 3: Run the Program
+python violence-detector4.py
+
+
+
+##📂 Log Generation
+- All detections are saved with timestamp, motion score, face count, and alert status in detection_log.csv.
+- On program exit, it automatically creates a timestamped .xlsx Excel log file for easy review and audit.
+
+
+
+##🧪 Sample Output
+- Detects human faces using DNN and OpenCV
+- Identifies motion in frame difference (based on pixel intensity)
+- Logs events like:
+  Timestamp, Motion Score, Face Events, Alert Status
+  2025-06-04 14:35:12, 8129, 1, Alert Triggered
+- Converts .csv to .xlsx like:
+detection_log_2025-06-04_14-35-12.xlsx
+
+
+
+## 🚀 Future Enhancements
+- 📩 Email/SMS alerts on violence detection
+- 🔗 Integration with external face recognition APIs
+- ☁️ Cloud upload of event logs
+- 🎥 Multi-camera support
+- 🤖 Deep learning-based behavior recognition
+
 
