@@ -36,12 +36,12 @@ To build a smart, real-time monitoring system that detects criminal or suspiciou
 ---
 
 ## 📁 Project Structure
-├── deploy.prototxt.txt # DNN face detection model config
-├── res10_300x300_ssd_iter_140000.caffemodel # Pre-trained face detection model
-├── Beep.wav # Alert sound file
-├── detection_log.csv # Auto-generated log file
-├── violence-detector4.py # Main code for detection
-└── README.md # Project documentation
+- ├── deploy.prototxt.txt # DNN face detection model config
+- ├── res10_300x300_ssd_iter_140000.caffemodel # Pre-trained face detection model
+- ├── Beep.wav # Alert sound file
+- ├── detection_log.csv # Auto-generated log file
+- ├── violence-detector4.py # Main code for detection
+- └── README.md # Project documentation
 
 
 
@@ -51,8 +51,8 @@ To build a smart, real-time monitoring system that detects criminal or suspiciou
 
 ### ✅ Step 1: Clone the repository
 
-git clone https://github.com/yourusername/violence-detection-using-artificial-intelligence.git
-cd intelligent-crime-detection-ai
+- git clone https://github.com/yourusername/violence-detection-using-artificial-intelligence.git
+- cd intelligent-crime-detection-ai
 
 ### ✅ Step 2: Install dependencies
 pip install opencv-python imutils pygame pandas numpy
