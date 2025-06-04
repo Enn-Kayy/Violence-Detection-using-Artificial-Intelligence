@@ -51,7 +51,7 @@ To build a smart, real-time monitoring system that detects criminal or suspiciou
 
 ### ✅ Step 1: Clone the repository
 
-git clone https://github.com/yourusername/intelligent-crime-detection-ai.git
+git clone https://github.com/yourusername/violence-detection-using-artificial-intelligence.git
 cd intelligent-crime-detection-ai
 
 ### ✅ Step 2: Install dependencies
@@ -86,4 +86,4 @@ detection_log_2025-06-04_14-35-12.xlsx
 - 🎥 Multi-camera support
 - 🤖 Deep learning-based behavior recognition
 
-
+______________________________________________________________________________________________________________________________________________________________
